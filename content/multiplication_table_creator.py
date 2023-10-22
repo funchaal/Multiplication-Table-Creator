@@ -39,7 +39,7 @@ def calculate(min=1, max=10, step=1, columns=1, spaces=10):
                 spaces_str = ''
                 num_spaces = spaces + ((max_len + spaces) - (len(el[i]) + spaces))
 
-                for _ in range(num_spaces): spaces_str += '_'
+                for _ in range(num_spaces): spaces_str += ' '
 
                 if j == len(array): text += f'{el[i]}'
                 else: text += f'{el[i]}{spaces_str}'
